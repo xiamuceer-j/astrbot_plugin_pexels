@@ -1,0 +1,20 @@
+{
+  "pexels_api_key": {
+    "title": "Pexels API 密钥",
+    "description": "用于访问 Pexels API 的密钥。请前往 Pexels 官网申请。",
+    "type": "string",
+    "default": ""
+  },
+  "pexels_base_url": {
+    "title": "Pexels API 基础 URL",
+    "description": "Pexels API 的 V1 版本基础访问地址。",
+    "type": "string",
+    "default": "https://api.pexels.com/v1/curated"
+  },
+  "pexels_num": {
+    "title": "Pexels 获取数量",
+    "description": "Pexels 获取数量建议设置在1-5（max<80）",
+    "type": "int",
+    "default": "3"
+  }
+}
